@@ -20,7 +20,7 @@ function scroll() {
 		document.getElementById("homy").style.display = "block";
 		document.getElementById("progress-container").style.display = "none";
 	}
-} 
+}
 //texte
 function hideforlanguages() {
 	document.getElementById("languagemenu").style.display = "flex";
