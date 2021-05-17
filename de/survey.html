@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html id="html" lang="de">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style/main.css">
+		<link rel="stylesheet" type="text/css" href="../style/animation.css">
+		<link rel="shortcut icon" href="../resources/pictures/france.ico" />
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+		<script src="../engine.js"></script>
+		<title>DMA : Umfrage</title>
+	</head>
+
+	<body id="body">
+		<div id="mainmenu">
+			<a href="../de/home.html"><img class="icon" src="../resources/pictures/home.png"></a>
+
+			<div id="navigate">
+				<a class="navigate" href="history.html">Geschichte</a>
+				<a class="navigate" href="info.html">Wie die Abstimmung funktioniert</a>
+				<a class="navigate" href="statistics.html">Statistik</a>
+				<a class="navigate" href="survey.html">Umfrage</a>
+				<a class="navigate" href="about.html">Über</a>
+			</div>
+		</div>
+
+		<div id="header">
+			<div id="progress-container" class="progress-container">
+				<div class="progress-bar" id="myBar"></div>
+			</div>
+			
+			<button id="homy" onclick="hideformenusurvey()">
+				<img class="icon" src="../resources/pictures/menue.png">
+			</button>
+		</div>
+
+		<iframe id="questionnaire" src="https://docs.google.com/forms/d/e/1FAIpQLSfI42-SOb1fOcTwaKN7Dfq2hcSLAHAtSC8v23-WcvhxI1KLGA/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Laden...</iframe>
+	</body>
+</html>

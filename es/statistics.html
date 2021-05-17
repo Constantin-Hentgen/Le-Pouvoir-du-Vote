@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html id="html" lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../style/main.css">
+	<link rel="stylesheet" type="text/css" href="../style/animation.css">
+	<link rel="shortcut icon" href="../resources/pictures/france.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<script src="../engine.js"></script>
+	<title>EPV : Estadísticas</title>
+</head>
+
+<body id="body">
+	<div id="mainmenu">
+		<a href="../es/home.html"><img class="icon" src="../resources/pictures/home.png"></a>
+
+		<div id="navigate">
+			<a class="navigate" href="history.html">Historia</a>
+			<a class="navigate" href="info.html">Funcionamiento del voto</a>
+			<a class="navigate" href="statistics.html">Estadísticas</a>
+			<a class="navigate" href="survey.html">Encuesta</a>
+			<a class="navigate" href="about.html">A proposito</a>
+		</div>
+	</div>
+
+	<div id="header">
+		<div id="progress-container" class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+		</div>
+
+		<button id="homy" onclick="hideformenuinfo()">
+			<img class="icon" src="../resources/pictures/menue.png">
+		</button>
+	</div>
+
+	<div id="Histoire">
+		<h2>Perfil de los votantes de la encuesta presidencial de 2017.</h2>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtAge.png" height=auto width=auto />
+
+		<p> Notamos en este gráfico que parece haber una correlación [es decir, un vínculo] entre los tramos
+			de edad y los partidos políticos votados. De hecho, cuanto más mayores son los ciudadanos, más parecen
+			tender a
+			a votar a los republicanos y, por el contrario, cuanto más jóvenes son, más probabilidades tienen de votar a
+			los republicanos, más probabilidades tienen de votar a Francia.
+			es decir, una tendencia de extrema izquierda.
+		</p>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtSexe.png" height=auto width=auto />
+		<p>Parece que los hombres son más propensos a votar por la Reunión Nacional que las mujeres, y...
+			Por otro lado, parece que votan mucho más que los hombres al Partido Socialista.</p>
+
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtRevenu.png" height=auto width=auto />
+
+		<p>Nos damos cuenta aquí de que, una vez más, hay una correlación entre ciertos segmentos de la población. El
+			la proporción de votos para la Asamblea Nacional es inversamente proporcional al salario, y
+			y viceversa para el Partido Republicano.</p>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtStatPro.png" height=auto width=auto />
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtPro.png" height=auto width=auto />
+
+		<h2>Perfil del votante para todas las elecciones.
+		</h2>
+
+		<img class="graphics" src="../resources/pictures/sexeEnFonctionAge.png" height=auto width=auto />
+		<p>Nos damos cuenta aquí de la distribución de los votantes según su sexo. Podemos ver aquí que cuanto mayor es
+			la edad de los votantes
+			aumenta, se observa un mayor predominio del sexo femenino.</p>
+
+		<img class="graphics" src="../resources/pictures/electeursEnFonctionAgeEtSexe.png" height=auto width=auto
+			margin-bottom=100px; />
+		<p>Todas estas correlaciones indican que ciertos segmentos de la población francesa se sienten "en sintonía"...
+			con determinados grupos y, por tanto, con ideas políticas. Esto no es en absoluto un problema, en
+			Por otro lado, se observa que este sistema casi pone de manifiesto las divergencias presentes en la
+			sociedad.
+			francés, dividiendo así a un pueblo que se supone que gobierna de forma homogénea según el concepto de
+			la democracia. De hecho, hoy en día sólo los ganadores tienen realmente poder fuera de él.
+			Los ganadores no siempre son los que el pueblo en su conjunto espera.</p>
+
+		<p>Esto podría llevarnos a cuestionar la pertinencia del sistema electoral francés.
+			Tal vez haya otros mejores...</p>
+
+		<p>Por favor, recomendamos <a id="scienceetonnante" target="_blank"
+				href="https://www.youtube-nocookie.com/embed/ZoGH7d51bvc">el vídeo de ScienceEtonnante</a> que evoca
+			sistemas alternativos más eficientes. De hecho, este problema se puede modelar fácilmente con la ayuda de
+			matemáticas y tal vez sea el momento de reformar ese viejo sistema... </p>
+	</div>
+</body>
+
+</html>

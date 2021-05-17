@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html id="html" lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../style/main.css">
+	<link rel="stylesheet" type="text/css" href="../style/animation.css">
+	<link rel="shortcut icon" href="../resources/pictures/france.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<script src="../engine.js"></script>
+	<title>LPV : Statistiques</title>
+</head>
+
+<body id="body">
+	<div id="mainmenu">
+		<a href="../fr/home.html"><img class="icon" src="../resources/pictures/home.png"></a>
+
+		<div id="navigate">
+			<a class="navigate" href="history.html">Histoire</a>
+			<a class="navigate" href="info.html">Fonctionnement du vote</a>
+			<a class="navigate" href="statistics.html">Statistiques</a>
+			<a class="navigate" href="survey.html">Enquête</a>
+			<a class="navigate" href="about.html">À propos</a>
+		</div>
+	</div>
+
+	<div id="header">
+		<div id="progress-container" class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+		</div>
+
+		<button id="homy" onclick="hideformenuinfo()">
+			<img class="icon" src="../resources/pictures/menue.png">
+		</button>
+	</div>
+
+	<div id="Histoire">
+		<h2>Profil des votants à la présidentielle de 2017</h2>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtAge.png" height=auto width=auto />
+
+		<p> On remarque dans ce graphique qu'il semble y avoir une corrélation [c'est à dire un lien] entre les tranches
+			d'âge et les partis politiques votés. En effet, plus les citoyens sont âgés plus ils semblent avoir tendance
+			de voter Républicain, et au contraire, plus ils sont jeunes plus ils ont tendance à voter France insoumise
+			c'est à dire tendance extrême gauche.</p>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtSexe.png" height=auto width=auto />
+		<p>Il semblerait que les hommes soient plus enclun à voter pour le Rassemblement National que les femmes, et
+			d'un autre côté elles semblent voter significativement plus que les hommes pour le Parti Socialiste.</p>
+
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtRevenu.png" height=auto width=auto />
+
+		<p>On remarque ici qu'il y a encore une fois une corrélation entre certaines tranches de la population. Le
+			proportion de votant pour le Rassemblement National est inversement proportionnelle au salaire, et
+			inversement pour le partis Les Républicains.</p>
+
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtStatPro.png" height=auto width=auto />
+		<img class="graphics" src="../resources/pictures/partiPolitiqueEtPro.png" height=auto width=auto />
+
+		<h2>Profil des votants à toutes les élections</h2>
+
+		<img class="graphics" src="../resources/pictures/sexeEnFonctionAge.png" height=auto width=auto />
+		<p>On remarque ici la répartion des élécteurs selon leur sexe. On peut voir ici que plus l'âge des électeurs
+			augmente, plus l'on observe une prédominance du sexe féminin.</p>
+
+		<img class="graphics" src="../resources/pictures/electeursEnFonctionAgeEtSexe.png" height=auto width=auto
+			margin-bottom=100px; />
+		<p>Toutes ces corrélations indiquent que certaines tranches de la population française se sentent «en phase»
+			avec certains groupes et donc idées politiques. Ce n'est en aucun cas une quelconque forme de problème, en
+			revanche on remarque que ce système met presque en exergue les divergences présentes au sein de la société
+			française, divisant ainsi un peuple qui est sensé gouverner de manière homogéne selon le concept de
+			démocratie. En effet, aujourd'hui seuls les gagnants ont véritablement le pouvoir hors il se trouve que les
+			gagnants ne sont pas toujours ceux que le peuple dans sa globalité attend.</p>
+
+		<p>Cela pourrait nous amener à nous poser ainsi la question de la pertinence du système éléctoral français.
+			Peut-être en existe-t'il de meilleurs…</p>
+
+		<p>Nous vous conseillons <a id="scienceetonnante" target="_blank"
+				href="https://www.youtube-nocookie.com/embed/ZoGH7d51bvc">la vidéo de ScienceEtonnante</a> qui évoque
+			des systèmes alternatifs plus performants. Ce problème est en fait facilement modélisable à l'aide des
+			mathématiques et peut-être serait-il temps de réformer cet ancien système…</p>
+	</div>
+</body>
+
+</html>
