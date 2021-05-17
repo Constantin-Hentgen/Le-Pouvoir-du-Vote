@@ -21,7 +21,7 @@ function scroll() {
 		document.getElementById("progress-container").style.display = "none";
 	}
 } 
-
+//texte
 function hideforlanguages() {
 	document.getElementById("languagemenu").style.display = "flex";
 	document.getElementById("languages").style.display = "none";
