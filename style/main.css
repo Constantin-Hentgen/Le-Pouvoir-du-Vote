@@ -41,8 +41,9 @@ p {
 #sources li{
 	border: 10px;
 	margin-bottom: 3px;
-	text-align: center;
-	color: #092a48;
+	text-align: left;
+	color: whitesmoke;
+	background-color: transparent;
 	padding: 5px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
