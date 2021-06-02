@@ -1,4 +1,4 @@
-html {  
+html {
 	scrollbar-color: rgb(1, 1, 1) rgb(110, 110, 110);
 	margin: 0px;
 	background-color: #092a48;
@@ -7,6 +7,46 @@ html {
 	flex-direction: column;
 	justify-content: center;
 	scroll-behavior: smooth;
+}
+
+.apropos ul li {
+	border: 15px solid #1352c0;
+	border-radius: 15px;
+	background-color: #1352c0;
+	color: rgb(192, 192, 192);
+	margin-bottom: 10px;
+}
+
+li {
+	border: 7px 0px 0px 0px solid #232327;
+	border-radius: 0px;
+	border-left: 4px solid green;
+	padding: 5px;
+	background-color: #232327;
+	margin-bottom: 0px;
+	color: rgb(158, 158, 158);
+}
+
+p {
+	border: 7px solid #232327;
+	border-radius: 0px;
+	text-align: left;
+	border-left: 4px solid green;
+	padding-left: 5px;
+	background-color: #232327;
+	margin-bottom: 0px;
+	color: rgb(158, 158, 158);
+}
+
+#sources li{
+	border: 10px;
+	margin-bottom: 3px;
+	text-align: center;
+	color: #092a48;
+	padding: 5px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 body {
@@ -163,18 +203,22 @@ ul {
 	margin-right: 10%;
 	font-size: 1em;
 	width: 85%;
-	list-style: disc inside none;
+	list-style-type: none;
 	padding: 0px;
-	text-align: justify;
+	text-align: left;
 	animation-name: fondu;
 	animation-duration: 3s;
 }
 
 ul ul li {
+	list-style-type: circle;
 	font-size: 1em;
-	text-align: justify;
+	text-align: left;
 	animation-name: fondu;
 	animation-duration: 3s;
+	border: transparent;
+	border-left: green;
+	background-color: transparent;
 }
 
 #scienceetonnante {
@@ -240,7 +284,7 @@ ul ul li {
 }
 
 @media (max-width: 1000px) {
-	html{
+	html {
 		overflow-y: scroll;
 		-ms-overflow-style: none;
 		/* IE and Edge */
