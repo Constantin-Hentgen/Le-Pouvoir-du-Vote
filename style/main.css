@@ -201,6 +201,13 @@ ul ul .arabic{
 	background-color: transparent;
 }
 
+#navigate p{
+	background-color: transparent;
+	border: 0px;
+	color: black;
+	font-size: 0.8em;
+}
+
 ul .arabic{
 	border-left: transparent;
 	border-right:  4px solid green;
