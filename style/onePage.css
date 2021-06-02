@@ -8,17 +8,6 @@ html {
 	justify-content: center;
 	animation-name: animatebottom;
 	animation-duration: 1.5s;
-	overflow-y: scroll;
-	scroll-behavior: smooth;
-	-ms-overflow-style: none;
-	/* IE and Edge */
-	scrollbar-width: none;
-	/* Firefox */
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-html::-webkit-scrollbar {
-	display: none;
 }
 
 body {
@@ -169,6 +158,19 @@ button {
 }
 
 @media (max-width: 700px) {
+	html{
+		overflow-y: scroll;
+		scroll-behavior: smooth;
+		-ms-overflow-style: none;
+		/* IE and Edge */
+		scrollbar-width: none;
+		/* Firefox */
+	}
+
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	html::-webkit-scrollbar {
+		display: none;
+	}
 
 	.translate {
 		font-size: 1.5em;

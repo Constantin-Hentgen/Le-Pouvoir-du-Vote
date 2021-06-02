@@ -15,13 +15,9 @@ function scroll() {
 		document.getElementById("progress-container").style.display = "block";
 		document.getElementById("homy").style.display = "none";
 	}
-
-	if (scrolled>98){
-		document.getElementById("homy").style.display = "block";
-		document.getElementById("progress-container").style.display = "none";
-	}
 }
-//texte
+
+
 function hideforlanguages() {
 	document.getElementById("languagemenu").style.display = "flex";
 	document.getElementById("languages").style.display = "none";
@@ -50,7 +46,6 @@ function hideformenuinfo() {
 	document.getElementById("header").style.display = "none";
 	document.getElementById("html").style.height = "100%";
 }
-
 
 function hideformenusurvey() {
 	document.getElementById("mainmenu").style.display = "flex";
