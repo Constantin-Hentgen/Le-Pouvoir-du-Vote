@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html id="html" lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../style/main.css">
+	<link rel="stylesheet" type="text/css" href="../style/animation.css">
+	<link rel="shortcut icon" href="../resources/pictures/france.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<script src="../engine.js"></script>
+	<title>LPV : À propos</title>
+</head>
+
+<body id="body">
+	<div id="mainmenu">
+		<a href="../fr/home.html"><img class="icon" src="../resources/pictures/home.png"></a>
+
+		<div id="navigate">
+			<a class="navigate" href="history.html">Histoire</a>
+			<a class="navigate" href="info.html">Fonctionnement du vote</a>
+			<a class="navigate" href="statistics.html">Statistiques</a>
+			<a class="navigate" href="survey.html">Enquête</a>
+			<a class="navigate" href="about.html">À propos</a>
+		</div>
+	</div>
+
+	<div id="header">
+		<div id="progress-container" class="progress-container">
+			<div class="progress-bar" id="myBar"></div>
+		</div>
+
+		<button id="homy" onclick="hideformenuinfo()">
+			<img class="icon" src="../resources/pictures/menue.png">
+		</button>
+	</div>
+
+	<div id="Histoire" class="apropos">
+		<h2>À Propos</h2>
+
+		<h3>1. Les créateurs</h3>
+		<p>Ce site web a été réalisé par Sana Deiri et Constantin Hentgen, deux étudiants de l'ESAIP école d'ingénieurs.
+			Ce projet a été réalisé sur deux ans. L'intégralité des statistiques présentent sur le site ont été créées à
+			partir d'une base de données officielle issues du site gouvernemental <a target="_blank"
+				href="https://www.data.gouv.fr/en/">data.gouv</a>
+			puis mises en forme à l'aide du logiciel Microsoft Excel. Aussi, ce site représente un défi technique
+			puisqu'il a été intégralement codé en HTML, CSS, JavaScript et PHP, aucun service d'aide à la création de
+			site n'a été utilisé.</p>
+
+		<h3>2. Nos objectifs</h3>
+
+		<p>Nous avons des objectifs d'audience, en effet, puisque ce site s'inscrit dans un projet d'école ce dernier
+			doit permettre d'attester sur une certaine réussite et étant donné la nature de notre contenu ce dernier se
+			devait donc de toucher le plus de personnes. Nous observons ainsi l'évolution du nombre de connections et
+			également le nombre d'IP déjà connectées. </p>
+
+		<p>Notre profond désir est de suciter des débats, des réflexions autour de ce thème que représente la
+			démocratie. Nous voulons que le plus grand nombre se questionne quant à sa place dans le grand groupe social
+			que représente nos nations respectives et bien sûr l'humanité. C'est bien évidemment un choix que nous
+			assumons.</p>
+
+		<h3>3. Les contributeurs</h3>
+		<p> Nous remercions chaleureusement toutes les personnes qui nous ont aidé d'une manière ou d'une autre lors de
+			ce projet. </p>
+
+		<p>Nous remercions en particulier :</p>
+		<ul>
+			<li><a target="_blank" href="https://github.com/Rhylionn">Thomas Bernard</a> a créé et administré et
+				maintenu la base de données du site. Thomas a également fait office de béta tester tout au long du
+				processus de développement.</li>
+			<li>Anonyme1 a testé le site sous ses différentes déclinaisons depuis les débuts du développment et a
+				contribué à la promotion du site. </li>
+			<li>Anonyme2 a testé le site et nous a apporté son éclairage stylistique et ergonomique.</li>
+		</ul>
+
+		<h3>4. Vos données personnelles</h3>
+		<ul>
+			<li> Afin de pouvoir analyser l'évolution de notre audience nous collectons les adresses IP de nos
+				utilisateurs. Ces dernières nous permettent d'avoir un indicateur sur le nombre de visiteurs uniques.
+			</li>
+
+			<li> Les questionnaire google form : Le compte créateur de ce questionnaire ne collecte pas les adresses
+				mail puisqu'aucune identification n'est requise (information fournie par Google). Vous pouvez en
+				apprendre plus sur la politique de confidentialité de Google appliquée ici grâce à la section menu tout
+				à droite dans le petit encart google en bas de l'enquête (les trois petits points).</li>
+		</ul>
+
+		<h3>5. Les services utilisés</h3>
+		<ul>
+			<li>Nous avons utilisé pour ce site que le service externe Google Form ainsi que l'hébergement Alwaysdata.
+			</li>
+			<li>Le site deepl a été utilisé pour effectuer une importante partie de la traduction, l'hébergement quant à
+				lui permis gratuitement par l'entreprise
+				Alwaysdata.</li>
+		</ul>
+
+		<p>Nos principales sources</p>
+		<ul id="sources">
+			<li>https://www.insee.fr/fr/statistiques/3138704</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-1965-2012-1/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2007-1ertour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2012-1ertour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2007-2emetour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2012-2emetour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/taux-de-participation-aux-elections-presidentielles-2-rdl/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/taux-de-participation-aux-elections-presidentielles-rdl/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2017-2emetour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/elections-presidentielles-2017-1ertour/</li>
+			<li>https://www.data.gouv.fr/fr/datasets/taux-de-participation-aux-elections-presidentielles1/</li>
+			<li>http://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/le-suffrage-universel</li>
+			<li>https://www.ac-paris.fr/portail/jcms/p2_1461806/une-difficile-conquete-voter-de-1815-a-1870-histoire-4e
+			</li>
+			<li>https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/le-suffrage-universel</li>
+			<li>https://www.franceculture.fr/politique/age-diplome-revenus-qui-sont-les-abstentionnistes-du-second-tour-des-legislatives
+			</li>
+			<li>https://www.youtube.com/watch?v=ZoGH7d51bvc</li>
+			<li>L'icone pour atteindre les différentes catégories du site a été créé par Author: buildings et est
+				protégée
+				par la licence Flaticon Basic License, elle a été récupérée sur le site shareicon.net</li>
+		</ul>
+
+		<p> Si vous souhaitez nous aider à continuer ce projet vous pouvez répondre à l'enquête ci-dessous. En nous
+			procurant de nouvelles informations nous pourrons imaginer et concevoir l'avenir de ce site. Aussi, vous
+			pouvez nous faire part d'un message pour nous donner un avis que les catégories ne refléteraient pas, ou
+			encore pour nous soutenir dans notre travail.</p>
+
+		<iframe
+			src="https://docs.google.com/forms/d/e/1FAIpQLSfTaP7WK6pT6XvvCdP8gWBUQi-varLAa1k8uyB_JO5Iq2v_Vw/viewform?embedded=true"
+			width="100%" height="1550" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+	</div>
+</body>
+
+</html>
